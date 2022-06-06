@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="amazing_gray">#777777</color>
+    <color name="amazing_bg1">#393E57</color>
+    <color name="amazing_bg">#282C40</color>
     <color name="amazing_btn">#4254BC</color>
 </resources>
