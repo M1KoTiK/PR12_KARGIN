@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val logoButton = findViewById<ImageView>(R.id.logo)
         logoButton.setOnClickListener{
             val openRegistration = Intent(this, Registration::class.java)

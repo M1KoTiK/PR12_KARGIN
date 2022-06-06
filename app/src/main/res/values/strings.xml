@@ -3,8 +3,10 @@
     <string name="desc_logo">Логотип-кнопка нажми на него</string>
     <string name="forgot">forgot password ?</string>
     <string name="btn_sign">sign in</string>
+    <string name="btn_reg">sign up</string>
     <string name="ex_name_user">ivanov I.</string>
     <string name="mb_facebook">sign in with Facebook</string>
     <string name="ex_password">••••••</string>
+    <string name="ex_mail">ivanov@gmail.com</string>
     <string name="cr_acc">Create A New Account?</string>
 </resources>
