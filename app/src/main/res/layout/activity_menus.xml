@@ -75,6 +75,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/itemSettings"
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:orientation="horizontal">
@@ -83,9 +84,9 @@
                 android:id="@+id/imageView25"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
                 android:layout_weight="1"
                 android:scaleType="centerInside"
-                android:layout_marginLeft="25dp"
                 app:srcCompat="@drawable/iconsettings" />
 
             <TextView
@@ -93,9 +94,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:textColor="@color/white"
                 android:gravity="center_vertical"
-                android:text="@string/menuItem2" />
+                android:text="@string/menuItem2"
+                android:textColor="@color/white" />
         </LinearLayout>
     </LinearLayout>
 

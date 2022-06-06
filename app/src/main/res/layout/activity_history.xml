@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:background="@color/amazing_bg"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,8 +21,8 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:layout_weight="1"
             android:layout_marginBottom="20dp"
+            android:layout_weight="1"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/iconmenuwithoutround" />
 
@@ -31,10 +31,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
+            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/menuItem1"
-            android:layout_marginBottom="20dp"
             android:textColor="@color/white"
             android:textSize="24sp" />
     </LinearLayout>
@@ -42,7 +42,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -63,17 +63,17 @@
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:textSize="22sp"
                     android:gravity="bottom|center_horizontal"
-                    android:text="@string/CAR" />
+                    android:text="@string/CAR"
+                    android:textSize="22sp" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal"
-                    android:textSize="15sp"
-                    android:text="15 MIN" />
+                    android:text="15 MIN"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <TextView
@@ -117,8 +117,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal"
-                    android:textSize="15sp"
-                    android:text="10 min" />
+                    android:text="10 min"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <TextView
@@ -162,8 +162,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_horizontal"
-                    android:textSize="15sp"
-                    android:text="60 min" />
+                    android:text="60 min"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <TextView

@@ -17,6 +17,14 @@ class Menus : AppCompatActivity() {
             val openHistory = Intent(this, History::class.java)
             startActivity(openHistory)
         }
+
+        val itemSettings = findViewById<LinearLayout>(R.id.itemSettings)
+        itemSettings.setOnClickListener{
+            val openSettings = Intent(this, Settings::class.java)
+            startActivity(openSettings)
+        }
+
+
         val btnBack = findViewById<ImageView>(R.id.btnBack)
         btnBack.setOnClickListener{
             val openStart_Screen = Intent(this, Start_Screen::class.java)
